@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Romualdo Alves Pereira Junior"
+  },
+  "text": {
+    "more": "This is a graph of co-authorship collaboration in Poetry (Computer Science) from 1974 to 2016 based on the publications available in Web of Science and ACM Digital Library.",
+    "intro": "",
+    "title": "Co-authorsip Network in Poetry (Computer Science)"
+  },
+  "legend": {
+    "edgeLabel": "Co-authorship",
+    "colorLabel": "Eccentricity",
+    "nodeLabel": "Authors"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Interval",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.7,
+      "minEdgeSize": 0.3,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
